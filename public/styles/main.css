@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0
 }
+
 .row { margin-right: 0; margin-left: 0 }
+
+.about { margin: 30px 0; text-align: center }
+.about p { max-width: 80%; margin: 0 auto }
 
 .seemore { width: 100% }
 
