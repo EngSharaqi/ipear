@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0
 }
+.row { margin-right: 0; margin-left: 0 }
+
 .seemore { width: 100% }
+
 .seemore a {
     margin: 20px auto;
     display: block;
@@ -10,3 +13,11 @@
 }
 
 .seemore a button { min-width: 50% }
+
+footer {
+    background: #e5e5e5;
+    padding: 10px;
+    text-align: center;
+}
+
+footer h6 { margin: 0; padding: 0 }
