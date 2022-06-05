@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0
+}
+.seemore { width: 100% }
+.seemore a {
+    margin: 20px auto;
+    display: block;
+    width: auto
+}
+
+.seemore a button { min-width: 50% }
