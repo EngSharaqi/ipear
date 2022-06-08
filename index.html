@@ -50,13 +50,16 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="https://placeholder.photo/img/1650x760" class="d-block w-100" alt="...">
+          <div id='sider-img' class="slider-img a"></div>
+          <!-- <img src="public/images/sliderI.jpg" class="d-block w-100" alt="..."> -->
         </div>
         <div class="carousel-item">
-          <img src="https://placeholder.photo/img/1650x760" class="d-block w-100" alt="...">
+          <div id='sider-img' class="slider-img b"></div>
+          <!-- <img src="public/images/sliderII.jpg" class="d-block w-100" alt="..."> -->
         </div>
         <div class="carousel-item">
-          <img src="https://placeholder.photo/img/1650x760" class="d-block w-100" alt="...">
+          <div id='sider-img' class="slider-img c"></div>
+          <!-- <img src="public/images/cleanersI.jpg" class="d-block w-100" alt="..."> -->
         </div>
       </div>
      <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
@@ -86,7 +89,8 @@
           <div class='row'>
             <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'>
               <div class="card">
-                <img src='https://placeholder.photo/img/400x200' alt='' />
+                <!-- <img src='public/images/cleaners.jpg' alt='' /> -->
+                <div class="product-img cleanersI"></div>
                 <div>
                   <h4 class="name">Product Name</h4>
                   <p class="name">Product details</p>
@@ -95,7 +99,7 @@
             </div>
             <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'>
               <div class="card">
-                <img src='https://placeholder.photo/img/400x200' alt='' />
+                <img src='public/images/cleanersI.jpg' alt='' />
                 <div>
                   <h4 class="name">Product Name</h4>
                   <p class="name">Product details</p>
@@ -269,5 +273,10 @@
     <!-- scripts -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script>
+      document.getElementById('sider-img').style.height = window.innerHeight - 100 + "px";
+      document.getElementsByClassName('b')[0].style.height = window.innerHeight - 100 + "px";
+      document.getElementsByClassName('c')[0].style.height = window.innerHeight - 100 + "px";
+    </script>
   </body>
 </html>
