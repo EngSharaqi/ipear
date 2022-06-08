@@ -39,3 +39,8 @@ footer h6 { margin: 0; padding: 0 }
 
 .product-img.sterileI { background-image: url('../images/sterile.jpg') }
 .product-img.sterileII { background-image: url('../images/sterileI.jpg') }
+
+.product-img.cosemeticsI { background-image: url('../images/cosemeticsI.jpg') }
+.product-img.cosemeticsII { background-image: url('../images/cosemeticsII.jpg') }
+.product-img.cosemeticsIII { background-image: url('../images/cosemeticsIII.jpg') }
+.product-img.cosemeticsIIII { background-image: url('../images/cosemeticsIIII.jpg') }
